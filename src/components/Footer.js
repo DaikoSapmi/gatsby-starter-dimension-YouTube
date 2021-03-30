@@ -3,7 +3,33 @@ import PropTypes from 'prop-types'
 
 const Footer = (props) => (
     <footer id="footer" style={props.timeout ? {display: 'none'} : {}}>
-        <p className="copyright">&copy; Gatsby Starter - Dimension. Design: <a href="https://html5up.net">HTML5 UP</a>. Built with: <a href="https://www.gatsbyjs.org/">Gatsby.js</a></p>
+                  <ul className="icons">
+            <li>
+              <a
+                href="https://twitter.com/RuneFjellheim"
+                className="icon fa-twitter"
+              >
+                <span className="label">Twitter</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/rune.fjellheim" className="icon fa-facebook">
+                <span className="label">Facebook</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/runefjellheim/" className="icon fa-instagram">
+                <span className="label">Instagram</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/channel/UChGEObcSuD1oJtolxxifrCQ" className="icon fa-youtube">
+                <span className="label">YouTube</span>
+              </a>
+            </li>
+          </ul>
+
+        <p className="copyright">&copy; Rune Fjellheim AS 2021</p>
     </footer>
 )
 
