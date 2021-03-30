@@ -4,6 +4,35 @@ import React from 'react'
 import pic02 from '../images/banner.jpg'
 // import pic03 from '../images/pic03.jpg'
 
+function encode(data) {
+  return Object.keys(data)
+    .map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+    .join('&')
+}
+
+export default function Contact() {
+  const [state, setState] = React.useState({})
+
+  const handleChange = (e) => {
+    setState({ ...state, [e.target.name]: e.target.value })
+  }
+
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    const form = e.target
+    fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: encode({
+        'form-name': form.getAttribute('name'),
+        ...state,
+      }),
+    })
+      .then(() => navigate(form.getAttribute('action')))
+      .catch((error) => alert(error))
+  }
+
+
 class Main extends React.Component {
   render() {
     let close = (
@@ -115,18 +144,32 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Váldde oktavuođa<br/>Kontakt meg<br/>Contact me</h2>
-          <form name="contact" method="POST" data-netlify="true">
+          <form 
+            name="contact"
+            method="POST"
+            data-netlify="true"
+            data-netlify-honeypot="bot-field"
+            onSubmit={handleSubmit}
+            >
+          {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
+            <input type="hidden" name="form-name" value="contact" />
+            <p hidden>
+              <label>
+                Don’t fill this out: <input name="bot-field" onChange={handleChange} />
+              </label>
+            </p>
+
             <div className="field half first">
               <label htmlFor="name">Namma-Navn-Name
-              <input type="text" name="name" id="name" /></label>
+              <input type="text" name="name" id="name"  onChange={handleChange} /></label>
             </div>
             <div className="field half">
               <label htmlFor="email">Eboasta-Epost-Email
-              <input type="text" name="email" id="email" /></label>
+              <input type="text" name="email" id="email"  onChange={handleChange}/></label>
             </div>
             <div className="field">
               <label htmlFor="message">Diehtu-Beskjed-Message
-              <textarea name="message" id="message" rows="4"></textarea></label>
+              <textarea name="message" id="message" rows="4"  onChange={handleChange}></textarea></label>
             </div>
             <ul className="actions">
               <li>
