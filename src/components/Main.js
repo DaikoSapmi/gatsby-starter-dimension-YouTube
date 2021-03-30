@@ -130,7 +130,7 @@ class Main extends React.Component {
             </div>
             <ul className="actions">
               <li>
-                <input type="submit" value="Sáddes - Send" className="special" />
+                <button type="submit" className="special">Sáddes - Send</button>
               </li>
               <li>
                 <input type="reset" value="Ođasmahtte-Reset" />
