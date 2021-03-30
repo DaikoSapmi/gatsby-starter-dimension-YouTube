@@ -13,9 +13,11 @@ const Header = props => (
       <div className="inner">
         <p>
           Logaldalli ja ráđđeaddi
-        <br /> <br />
+        </p>
+        <p>
           Foreleser og rådgiver
-        <br /> <br />
+        </p>
+        <p>
           Public speaker and adviser
         </p>
       </div>
