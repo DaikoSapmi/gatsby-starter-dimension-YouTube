@@ -115,7 +115,7 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Váldde oktavuođa<br/>Kontakt meg<br/>Contact me</h2>
-          <form name="contact" method="POST" data-netlify="true">
+          <form name="nettskjema" method="POST" data-netlify="true" encType="application/x-www-form-urlencoded">
             <div className="field half first">
               <label htmlFor="name">Namma-Navn-Name
               <input type="text" name="name" id="name" /></label>
@@ -133,7 +133,7 @@ class Main extends React.Component {
                 <button type="submit" className="special">Sáddes - Send</button>
               </li>
               <li>
-                <input type="reset" value="Ođasmahtte-Reset" />
+                <input name="reset" type="reset" value="Ođasmahtte-Reset" />
               </li>
             </ul>
           </form>
