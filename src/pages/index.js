@@ -101,11 +101,13 @@ class IndexPage extends React.Component {
   
   render() {
     const videoOptions = {
-      height: '540',
-      width: '960',
+      height: '390',
+      width: '640',
       playerVars: {
         // https://developers.google.com/youtube/player_parameters
         autoplay: 1,
+        disablekb: 1,
+        enablejsapi: 1,
         controls: 0,
         rel:0,
         showinfo:0
