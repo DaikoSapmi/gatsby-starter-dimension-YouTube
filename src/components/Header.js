@@ -13,9 +13,9 @@ const Header = props => (
       <div className="inner">
         <p>
           Logaldalli ja ráđđeaddi
-        <br/>
+        <br /> <br />
           Foreleser og rådgiver
-        <br/>
+        <br /> <br />
           Public speaker and adviser
         </p>
       </div>
