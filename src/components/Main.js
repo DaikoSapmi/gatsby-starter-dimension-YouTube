@@ -118,15 +118,15 @@ class Main extends React.Component {
           <form name="nettskjema" method="POST" data-netlify="true" encType="application/x-www-form-urlencoded">
             <div className="field half first">
               <label htmlFor="name">Namma-Navn-Name
-              <input type="text" name="name" id="name" /></label>
+              <input type="text" name="navn"/></label>
             </div>
             <div className="field half">
               <label htmlFor="email">Eboasta-Epost-Email
-              <input type="text" name="email" id="email" /></label>
+              <input type="text" name="epost"/></label>
             </div>
             <div className="field">
               <label htmlFor="message">Diehtu-Beskjed-Message
-              <textarea name="message" id="message" rows="4"></textarea></label>
+              <textarea name="melding" rows="4"></textarea></label>
             </div>
             <ul className="actions">
               <li>
