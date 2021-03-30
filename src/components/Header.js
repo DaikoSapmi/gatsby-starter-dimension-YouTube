@@ -13,9 +13,11 @@ const Header = props => (
       <div className="inner">
         <p>
           Logaldalli, ráđđeaddi ja proseassajođiheadji
-        <br/>
+        </p>
+        <p>
           Foreleser, rådgiver og prosessleder
-        <br/>
+        </p>
+        <p>
           Public speaker, adviser and process manager
         </p>
       </div>
