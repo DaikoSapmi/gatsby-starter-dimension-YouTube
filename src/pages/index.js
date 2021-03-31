@@ -94,11 +94,13 @@ class IndexPage extends React.Component {
     // access to player in all event handlers via event.target
     event.target.playVideo();
     event.target.mute();
+    event.target.setVolume(0);
   }
   
   _onEnd(event) {
     event.target.playVideo();
     event.target.mute();
+    event.target.setVolume(0);
   }
   
   render() {
