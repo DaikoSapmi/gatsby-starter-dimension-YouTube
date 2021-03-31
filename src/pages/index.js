@@ -111,7 +111,7 @@ class IndexPage extends React.Component {
         // https://developers.google.com/youtube/player_parameters
         autoplay: 1,
         disablekb: 1,
-        enablejsapi: 1,
+        enablejsapi: 0,
         controls: 0,
         rel:0,
         showinfo:0
