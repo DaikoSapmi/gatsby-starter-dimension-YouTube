@@ -135,16 +135,16 @@ class IndexPage extends React.Component {
           </div>
           {/*<div id="bg"></div>*/}
           <div className="video-background">
-        <div className="video-foreground">
-          <YouTube
-            videoId="5dfaitOxqDU"
-            opts={videoOptions}
-            className="video-iframe"
-            onReady={this._onReady}
-            onEnd={this._onEnd}
-          />
-        </div>
-      </div>
+            <div className="video-foreground">
+              <YouTube
+                videoId="5dfaitOxqDU"
+                opts={videoOptions}
+                className="video-iframe"
+                onReady={this._onReady}
+                onEnd={this._onEnd}
+              />
+            </div>
+          </div>
         </div>
       </Layout>
     )
