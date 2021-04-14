@@ -139,7 +139,7 @@ class IndexPage extends React.Component {
           <div className="video-background">
             <div className="video-foreground">
               <YouTube
-                videoId="5dfaitOxqDU"
+                videoId="_v7jM1dOKrQ"
                 opts={videoOptions}
                 className="video-iframe"
                 onReady={this._onReady}
