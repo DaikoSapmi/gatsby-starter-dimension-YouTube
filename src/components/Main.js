@@ -66,21 +66,9 @@ class Main extends React.Component {
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
-          <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
-          </p>
-          <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
-          </p>
+          <p>Jeg er en stolt same som har vokst opp i et samisk miljø og ønsker å bidra til at vårt folks historie og tilstedeværelse får sin rettmessige plass i den offentlige samtalen. Kunnskap og gjensidig respekt og forståelse er grunnlaget for meningsfulle relasjoner mellom folk med ulik kulturell bakgrunn. Jeg har benyttet det meste av min profesjonelle karriere på politikkutvikling som del av Sametinget i Norge sin administrative stab, uavhengig konsulent i Jaruma AS, leder av Samerådets Arktis og miljøavdeling, leder av Arktisk Råds urfolkssekretariat og i 12 år som direktør for Sametinget i Norges administrasjon. Nå driver jeg mitt eget konsulentfirma, Rune Fjellheim AS. Alle disse stillingene har gitt meg en grunnleggende forståelse og kompetanse i forhold til de utfordringer vi står ovenfor i samiske områder spesielt og den Arktiske region og globale urfolksspørsmål mer generelt.</p>
+          <p>Er opptatt av ny teknologi og er en ivrig skapprogrammerer, selv om det ikke er et primærprodukt som konsulent. Jeg kan imidlertid tilby digitale møteløsninger og streaming ved behov, inkludert teknisk opplegg for tolkning (via Zoom).</p>
+          <p>Spesialitet er prosessledelse, utredninger innenfor feltet samiske rettigheter, Arktis og urfolksspørsmål. I tillegg tilbys foredrag om samme temaer både digitalt og i egen person.</p>
           {close}
         </article>
 
@@ -97,7 +85,7 @@ class Main extends React.Component {
           </span>
           <p>As a Sámi grown up in a Sámi community, I engaged in Arctic and indigenous peoples' issues already as a student. In most of my professional carrier I have been involved in policy planning and development as part of the Sámi Parliament of Norway staff, an independent consultant in Jaruma AS, Head of the Arctic & Environmental Unit in the Saami Council, Executive Secretary of the Arctic Council Indigenous Peoples’ Secretariat, and for 12 years at the Sámi Parliament of Norway as Director General. Now I operate my own consultancy company, Rune Fjellheim AS. All of these positions have given me a thorough understanding of Arctic issues from different perspectives.</p>
 
-          <p>Specialties: Arctic Policy Issues, Indigenous Peoples' Policy Development, Multilateral negotiations, Climate Change Issues and Sámi Issues.</p>
+          <p>Specialties: Arctic Policy Issues, Indigenous Peoples' Policy Development, Multilateral negotiations, Climate Change Issues and Sámi Issues. Lectures and presentations can be held both digitally and in person. </p>
           {close}
         </article>
 
