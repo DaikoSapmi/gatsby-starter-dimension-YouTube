@@ -27,6 +27,12 @@ const Footer = (props) => (
                 <span className="label">YouTube</span>
               </a>
             </li>
+            <li>
+              <a href="mailto:rune@fjellheim.tv" className="icon fa-at">
+                <span className="label">E-mail</span>
+              </a>
+            </li>
+
           </ul>
 
         <p className="copyright">&copy; Rune Fjellheim AS 2021</p>
