@@ -106,14 +106,15 @@ class Main extends React.Component {
           <h2 className="major">Váldde oktavuođa<br/>Kontakt meg<br/>Contact me</h2>
           <script type="text/babel">
               ReactDOM.render(
-                  <form name="nettskjema" method="POST" data-netlify="true" encType="application/x-www-form-urlencoded">
+                  <form method="POST">
+                    <input type="hidden" name="form-name" value="nettskjema" />
                     <div className="field half first">
                       <label>Namma-Navn-Name
-                      <input type="text" name="navn"/></label>
+                      <input type="text" name="navn" /></label>
                     </div>
                     <div className="field half">
                       <label>Eboasta-Epost-Email
-                      <input type="text" name="epost"/></label>
+                      <input type="text" name="epost" /></label>
                     </div>
                     <div className="field">
                       <label>Diehtu-Beskjed-Message
