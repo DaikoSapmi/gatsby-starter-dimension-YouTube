@@ -161,7 +161,7 @@ class Main extends React.Component {
               </a>
             </li>
             <li>
-              <a href="mailto:rune@fjellheim.tv" className="icon fa-email">
+              <a href="mailto:rune@fjellheim.tv" className="icon fa-at">
                 <span className="label">E-mail</span>
               </a>
             </li>
