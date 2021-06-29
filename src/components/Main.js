@@ -160,6 +160,12 @@ class Main extends React.Component {
                 <span className="label">YouTube</span>
               </a>
             </li>
+            <li>
+              <a href="mailto:rune@fjellheim.tv" className="icon fa-email">
+                <span className="label">E-mail</span>
+              </a>
+            </li>
+
           </ul>
           {close}
         </article>
