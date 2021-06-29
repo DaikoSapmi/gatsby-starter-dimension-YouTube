@@ -97,29 +97,40 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
+        <form name="nettskjema" netlify netlify-honeypot="bot-field" hidden>
+          <input type="text" name="navn" />
+          <input type="email" name="epost" />
+          <textarea name="melding"></textarea>
+        </form>
+        <div id="kontakt"></div>
           <h2 className="major">Váldde oktavuođa<br/>Kontakt meg<br/>Contact me</h2>
-          <form name="nettskjema" method="POST" data-netlify="true" encType="application/x-www-form-urlencoded">
-            <div className="field half first">
-              <label>Namma-Navn-Name
-              <input type="text" name="navn"/></label>
-            </div>
-            <div className="field half">
-              <label>Eboasta-Epost-Email
-              <input type="text" name="epost"/></label>
-            </div>
-            <div className="field">
-              <label>Diehtu-Beskjed-Message
-              <textarea name="melding" rows="4"></textarea></label>
-            </div>
-            <ul className="actions">
-              <li>
-                <button type="submit" className="special">Sáddes - Send</button>
-              </li>
-              <li>
-                <input name="reset" type="reset" value="Ođasmahtte-Reset" />
-              </li>
-            </ul>
-          </form>
+          <script type="text/babel">
+              ReactDOM.render(
+                  <form name="nettskjema" method="POST" data-netlify="true" encType="application/x-www-form-urlencoded">
+                    <div className="field half first">
+                      <label>Namma-Navn-Name
+                      <input type="text" name="navn"/></label>
+                    </div>
+                    <div className="field half">
+                      <label>Eboasta-Epost-Email
+                      <input type="text" name="epost"/></label>
+                    </div>
+                    <div className="field">
+                      <label>Diehtu-Beskjed-Message
+                      <textarea name="melding" rows="4"></textarea></label>
+                    </div>
+                    <ul className="actions">
+                      <li>
+                        <button type="submit" className="special">Sáddes - Send</button>
+                      </li>
+                      <li>
+                        <input name="reset" type="reset" value="Ođasmahtte-Reset" />
+                      </li>
+                    </ul>
+                  </form>,
+            document.getElementById("kontakt")
+          );
+          </script>
           <ul className="icons">
             <li>
               <a
