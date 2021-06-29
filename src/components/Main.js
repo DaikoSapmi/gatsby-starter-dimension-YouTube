@@ -91,19 +91,13 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">About</h2>
+          <h2 className="major">About me</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
-          </p>
+          <p>As a Sámi grown up in a Sámi community, I engaged in Arctic and indigenous peoples' issues already as a student. In most of my professional carrier I have been involved in policy planning and development as part of the Sámi Parliament of Norway staff, an independent consultant in Jaruma AS, Head of the Arctic & Environmental Unit in the Saami Council, Executive Secretary of the Arctic Council Indigenous Peoples’ Secretariat, and for 12 years at the Sámi Parliament of Norway as Director General. Now I operate my own consultancy company, Rune Fjellheim AS. All of these positions have given me a thorough understanding of Arctic issues from different perspectives.</p>
+
+          <p>Specialties: Arctic Policy Issues, Indigenous Peoples' Policy Development, Multilateral negotiations, Climate Change Issues and Sámi Issues.</p>
           {close}
         </article>
 
