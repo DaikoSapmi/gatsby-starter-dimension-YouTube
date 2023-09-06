@@ -35,7 +35,7 @@ const Footer = (props) => (
 
           </ul>
 
-        <p className="copyright">&copy; Rune Fjellheim AS 2021</p>
+        <p className="copyright">&copy; Rune Fjellheim AS 2023</p>
     </footer>
 )
 
