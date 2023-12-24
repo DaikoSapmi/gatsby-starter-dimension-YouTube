@@ -32,7 +32,7 @@ class Main extends React.Component {
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
-          <p>Sápmelažžan bajásšadden Sámi servodagas, lean beroštuvvan Sámi-, Árktalaš- ja álgoálbmotáššiid juo studeantan. Bargoeallimis lean eanaš bargan politihka hábmemiin ja ovddideamiin oassin Norggabeal Sámedikki hálddáhusa, sorjjasmeahttun konsuleantan Jarumas AS:s, Sámeráđi árktalaš ja birasossodaga jođiheaddjin, Árktalaš ráđi álgoálbmogiid čállingotti jođiheaddjin ja 12 jagi Norggabeal Sámedikki direktevrran.</p>
+          <p>Mun lean rámis sápmelaš guhte lean bajásšaddan sámi birrasis ja háliidan váikkuhit dasa ahte min álbmoga historjá ja leahkin galgá oažžut vuoiggalaš saji almmolaš ságastallamis.</p>
           <p>Dál mun doaimmahan iežan konsuleantafitnodaga, Rune Fjellheim AS. Buot dát posišuvnnat leat addán munnje vuđolaš ipmárdusa Sámi ja Árktisa gažaldagain iešguđet geahččanguovllus.</p>
           <p>Spesialitehtat: Árktalaš  politihkkagažaldagat, álgoálbmotpolitihkkaovddideapmi, máŋggabealát šiehtadallamat, Dálkkádatrievdangažaldagat ja Sámi gažaldagat. Logaldallamiid ja ovdanbuktimiid lea vejolaš diŋgut sihke digitálalaččat ja persovnnalaččat.</p>
           {close}
