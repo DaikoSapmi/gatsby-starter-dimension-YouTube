@@ -2,8 +2,8 @@ BEGIN:VCARD
 VERSION:3.0
 N:Fjellheim;Rune;;;
 FN:Rune Fjellheim
-TITLE:Senior Advisor
+TITLE:CEO
 TEL;TYPE=CELL:+4791009320
-EMAIL:rune.fjellheim@saamicouncil.net
-URL:https://www.saamicouncil.net/
+EMAIL:rune@fjellheim.tv
+URL:https://fjellheim.netlify.app/
 END:VCARD
