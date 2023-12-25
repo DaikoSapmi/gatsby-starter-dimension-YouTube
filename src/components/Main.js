@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 import React from 'react'
 // import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/banner.jpg'
-// import pic03 from '../images/pic03.jpg'
+import pic03 from '../images/RuneFjellheim.jpg'
 
 class Main extends React.Component {
   render() {
@@ -91,6 +91,9 @@ class Main extends React.Component {
         </form>
         <div id="kontakt"></div>
           <h2 className="major">Váldde oktavuođa<br/>Kontakt meg<br/>Contact me</h2>
+          <span className="image main">
+            <img src={pic03} alt="" />
+          </span>
           <script type="text/babel">
               ReactDOM.render(
                   <form method="POST">
