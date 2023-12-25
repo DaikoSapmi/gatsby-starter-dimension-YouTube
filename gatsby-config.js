@@ -19,5 +19,11 @@ module.exports = {
       },
     },
     'gatsby-plugin-sass',
+    {
+      resolve: 'gatsby-plugin-sass',
+      options: {
+        implementation: require('sass'), // This line tells Gatsby to use Dart Sass
+      },
+    },
   ],
 }

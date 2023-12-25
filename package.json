@@ -4,11 +4,13 @@
   "version": "*",
   "author": "Hunter Chang",
   "dependencies": {
+    "ajv": "^8.12.0",
+    "devcert": "^1.2.2",
+    "eslint": "^8.56.0",
     "gatsby": "^5.13.1",
     "gatsby-plugin-manifest": "*",
     "gatsby-plugin-react-helmet": "*",
     "gatsby-plugin-sass": "*",
-    "node-sass": "*",
     "react": "*",
     "react-dom": "*",
     "react-helmet": "*",
@@ -25,8 +27,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "prettier": "^2.0.0",
-    "sass": "^1.32.0"
+    "prettier": "*",
+    "sass": "*"
   },
   "repository": {
     "type": "git",
