@@ -2,7 +2,6 @@ import PropTypes from 'prop-types'
 import React from 'react'
 // import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/banner.jpg'
-import vcard from '../images/RuneFjellheim.vcf'
 // import pic03 from '../images/pic03.jpg'
 
 class Main extends React.Component {
@@ -35,7 +34,7 @@ class Main extends React.Component {
           </span>
           <p>Sápmelažžan bajásšadden Sámi servodagas, lean beroštuvvan Sámi-, Árktalaš- ja álgoálbmotáššiid juo studeantan. Bargoeallimis lean eanaš bargan politihka hábmemiin ja ovddideamiin oassin Norggabeal Sámedikki hálddáhusa, sorjjasmeahttun konsuleantan Jarumas AS:s, Sámeráđi árktalaš ja birasossodaga jođiheaddjin, Árktalaš ráđi álgoálbmogiid čállingotti jođiheaddjin ja 12 jagi Norggabeal Sámedikki direktevrran.</p>
           <p>Dál mun doaimmahan iežan konsuleantafitnodaga, Rune Fjellheim AS. Buot dát posišuvnnat leat addán munnje vuđolaš ipmárdusa Sámi ja Árktisa gažaldagain iešguđet geahččanguovllus.</p>
-          <p>Spesialitehtat: Árktalaš politihkkagažaldagat, álgoálbmotpolitihkkaovddideapmi, máŋggabealát šiehtadallamat, Dálkkádatrievdangažaldagat ja Sámi gažaldagat. Logaldallamiid ja ovdanbuktimiid lea vejolaš diŋgut sihke digitálalaččat ja persovnnalaččat. <a href='{vcard}' download>Visitkoarta</a></p>
+          <p>Spesialitehtat: Árktalaš politihkkagažaldagat, álgoálbmotpolitihkkaovddideapmi, máŋggabealát šiehtadallamat, Dálkkádatrievdangažaldagat ja Sámi gažaldagat. Logaldallamiid ja ovdanbuktimiid lea vejolaš diŋgut sihke digitálalaččat ja persovnnalaččat. <a href="https://drive.google.com/file/d/1VLiJ1CX3DVi974f6RxC5AoCAHDnVCOrm/view?usp=sharing" download>Visitkoarta</a></p>
           {close}
         </article>
 
