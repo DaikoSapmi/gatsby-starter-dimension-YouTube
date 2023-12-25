@@ -34,7 +34,7 @@ class Main extends React.Component {
           </span>
           <p>Sápmelažžan bajásšadden Sámi servodagas, lean beroštuvvan Sámi-, Árktalaš- ja álgoálbmotáššiid juo studeantan. Bargoeallimis lean eanaš bargan politihka hábmemiin ja ovddideamiin oassin Norggabeal Sámedikki hálddáhusa, sorjjasmeahttun konsuleantan Jarumas AS:s, Sámeráđi árktalaš ja birasossodaga jođiheaddjin, Árktalaš ráđi álgoálbmogiid čállingotti jođiheaddjin ja 12 jagi Norggabeal Sámedikki direktevrran.</p>
           <p>Dál mun doaimmahan iežan konsuleantafitnodaga, Rune Fjellheim AS. Buot dát posišuvnnat leat addán munnje vuđolaš ipmárdusa Sámi ja Árktisa gažaldagain iešguđet geahččanguovllus.</p>
-          <p>Spesialitehtat: Árktalaš politihkkagažaldagat, álgoálbmotpolitihkkaovddideapmi, máŋggabealát šiehtadallamat, Dálkkádatrievdangažaldagat ja Sámi gažaldagat. Logaldallamiid ja ovdanbuktimiid lea vejolaš diŋgut sihke digitálalaččat ja persovnnalaččat.<a href="/images/RuneFjellheimSC.vcf" download>Visitkoarta VCF</a></p>
+          <p>Spesialitehtat: Árktalaš politihkkagažaldagat, álgoálbmotpolitihkkaovddideapmi, máŋggabealát šiehtadallamat, Dálkkádatrievdangažaldagat ja Sámi gažaldagat. Logaldallamiid ja ovdanbuktimiid lea vejolaš diŋgut sihke digitálalaččat ja persovnnalaččat. <a href="/images/RuneFjellheimSC.vcf" download>Visitkoarta VCF</a></p>
           {close}
         </article>
 
