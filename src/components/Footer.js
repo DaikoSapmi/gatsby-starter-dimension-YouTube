@@ -6,10 +6,10 @@ const Footer = (props) => (
                   <ul className="icons">
             <li>
               <a
-                href="https://twitter.com/RuneFjellheim"
+                href="https://x.com/RuneFjellheim"
                 className="icon fa-twitter"
               >
-                <span className="label">Twitter</span>
+                <span className="label">X</span>
               </a>
             </li>
             <li>

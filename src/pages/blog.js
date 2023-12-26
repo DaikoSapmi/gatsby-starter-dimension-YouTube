@@ -33,7 +33,7 @@ const Blog = () => {
     <Layout>
       <div className="logo">
         <span className="image main">
-            <Link to="/"><img src={pic01} alt="Logo Rune Fjellheim AS" style={{ width: '30%' }}/></Link>
+            <Link to="/"><img src={pic01} alt="Logo Rune Fjellheim AS" style={{ width: '10%' }}/></Link>
         </span>
       </div>
       <h1>{currentPost.title}</h1>
