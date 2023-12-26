@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import pic01 from '../images/pic01logo.png';
-import postsData from './images/posts.json';
+import postsData from '../images/posts.json';
 
 const Blog = () => {
   const [posts, setPosts] = useState([]);
