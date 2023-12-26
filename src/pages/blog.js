@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import Layout from '../components/layout'
 
 // Assuming the name of your JSON file is posts.json
-import postsData from '../imagges/posts.json';
+import postsData from '../images/posts.json';
 
 const Blog = () => {
   const [posts, setPosts] = useState([]);
