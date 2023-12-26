@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:4.0
+N:Fjellheim;Rune;;;
+FN:Rune Fjellheim
+TITLE:CEO
+TEL;TYPE=CELL:+4791009320
+EMAIL:rune@fjellheim.tv
+EMAIL:rune.fjellheim@saamicouncil.net
+URL:https://fjellheim.netlify.app/
+URL:https://saamicouncil.net
+PHOTO;MEDIATYPE=image/jpeg:http://fjellheim.netlify.app/RuneVcardBilde.jpg
+END:VCARD

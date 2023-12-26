@@ -35,7 +35,7 @@ class Main extends React.Component {
           </span>
           <p>Sápmelažžan bajásšadden Sámi servodagas, lean beroštuvvan Sámi-, Árktalaš- ja álgoálbmotáššiid juo studeantan. Bargoeallimis lean eanaš bargan politihka hábmemiin ja ovddideamiin oassin Norggabeal Sámedikki hálddáhusa, sorjjasmeahttun konsuleantan Jarumas AS:s, Sámeráđi árktalaš ja birasossodaga jođiheaddjin, Árktalaš ráđi álgoálbmogiid čállingotti jođiheaddjin ja 12 jagi Norggabeal Sámedikki direktevrran.</p>
           <p>Dál mun doaimmahan iežan konsuleantafitnodaga, Rune Fjellheim AS. Buot dát posišuvnnat leat addán munnje vuđolaš ipmárdusa Sámi ja Árktisa gažaldagain iešguđet geahččanguovllus.</p>
-          <p>Spesialitehtat: Árktalaš politihkkagažaldagat, álgoálbmotpolitihkkaovddideapmi, máŋggabealát šiehtadallamat, Dálkkádatrievdangažaldagat ja Sámi gažaldagat. Logaldallamiid ja ovdanbuktimiid lea vejolaš diŋgut sihke digitálalaččat ja persovnnalaččat. <a href="/RuneFjellheim.vcf" download>Visitkoarta</a></p>
+          <p>Spesialitehtat: Árktalaš politihkkagažaldagat, álgoálbmotpolitihkkaovddideapmi, máŋggabealát šiehtadallamat, Dálkkádatrievdangažaldagat ja Sámi gažaldagat. Logaldallamiid ja ovdanbuktimiid lea vejolaš diŋgut sihke digitálalaččat ja persovnnalaččat. <a href="/RuneFjellheimURI.vcf" download>Visitkoarta</a></p>
           {close}
         </article>
 
@@ -53,7 +53,7 @@ class Main extends React.Component {
           <p>Jeg er en stolt same som har vokst opp i et samisk miljø og ønsker å bidra til at vårt folks historie og tilstedeværelse får sin rettmessige plass i den offentlige samtalen.</p>
           <p>Kunnskap og gjensidig respekt og forståelse er grunnlaget for meningsfulle relasjoner mellom folk med ulik kulturell bakgrunn. Jeg har benyttet det meste av min profesjonelle karriere på politikkutvikling som del av Sametinget i Norge sin administrative stab, uavhengig konsulent i Jaruma AS, leder av Samerådets Arktis og miljøavdeling, leder av Arktisk Råds urfolkssekretariat og i 12 år som direktør for Sametinget i Norges administrasjon. Nå driver jeg mitt eget konsulentfirma, Rune Fjellheim AS. Alle disse stillingene har gitt meg en grunnleggende forståelse og kompetanse i forhold til de utfordringer vi står ovenfor i samiske områder spesielt og den Arktiske region og globale urfolksspørsmål mer generelt.</p>
           <p>Er opptatt av ny teknologi og er en ivrig skapprogrammerer, selv om det ikke er et primærprodukt som konsulent. Jeg kan imidlertid tilby digitale møteløsninger og streaming ved behov, inkludert teknisk opplegg for tolkning (via Zoom).</p>
-          <p>Spesialitet er prosessledelse, utredninger innenfor feltet samiske rettigheter, Arktis og urfolksspørsmål. I tillegg tilbys foredrag om samme temaer både digitalt og i egen person. <a href="/RuneFjellheim.vcf" download>Visittkort</a></p>
+          <p>Spesialitet er prosessledelse, utredninger innenfor feltet samiske rettigheter, Arktis og urfolksspørsmål. I tillegg tilbys foredrag om samme temaer både digitalt og i egen person. <a href="/RuneFjellheimURI.vcf" download>Visittkort</a></p>
           {close}
         </article>
 
@@ -70,7 +70,7 @@ class Main extends React.Component {
           </span>
           <p>As a Sámi grown up in a Sámi community, I engaged in Arctic and indigenous peoples' issues already as a student. In most of my professional carrier I have been involved in policy planning and development as part of the Sámi Parliament of Norway staff, an independent consultant in Jaruma AS, Head of the Arctic & Environmental Unit in the Saami Council, Executive Secretary of the Arctic Council Indigenous Peoples’ Secretariat, and for 12 years at the Sámi Parliament of Norway as Director General. Now I operate my own consultancy company, Rune Fjellheim AS. All of these positions have given me a thorough understanding of Arctic issues from different perspectives.</p>
 
-          <p>Specialties: Arctic Policy Issues, Indigenous Peoples' Policy Development, Multilateral negotiations, Climate Change Issues and Sámi Issues. Lectures and presentations can be held both digitally and in person. <a href="/RuneFjellheim.vcf" download>Business Card</a></p>
+          <p>Specialties: Arctic Policy Issues, Indigenous Peoples' Policy Development, Multilateral negotiations, Climate Change Issues and Sámi Issues. Lectures and presentations can be held both digitally and in person. <a href="/RuneFjellheimURI.vcf" download>Business Card</a></p>
           {close}
         </article>
 
