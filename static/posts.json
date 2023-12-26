@@ -1,0 +1,37 @@
+[
+    {
+        "id": "1",
+        "title": "Welcome to Our Blog",
+        "content": "<p>This is the first post in our new blog series. Stay tuned for more updates!</p>",
+        "nextId": "2",
+        "previousId": null
+    },
+    {
+        "id": "2",
+        "title": "Exploring the Great Outdoors",
+        "content": "<p>In this post, we share our experiences exploring the beautiful natural landscapes around us.</p>",
+        "nextId": "3",
+        "previousId": "1"
+    },
+    {
+        "id": "3",
+        "title": "Gourmet Adventures",
+        "content": "<p>Join us as we delve into the world of gourmet cooking and exciting culinary discoveries.</p>",
+        "nextId": "4",
+        "previousId": "2"
+    },
+    {
+        "id": "4",
+        "title": "Tech Trends in 2023",
+        "content": "<p>Today we're discussing the latest trends in technology and what the future holds for the tech industry.</p>",
+        "nextId": "5",
+        "previousId": "3"
+    },
+    {
+        "id": "5",
+        "title": "Mindfulness and Well-being",
+        "content": "<p>Our final post in this series focuses on mindfulness practices and tips for improving mental well-being.</p>",
+        "nextId": null,
+        "previousId": "4"
+    }
+]
