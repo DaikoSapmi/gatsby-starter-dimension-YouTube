@@ -92,7 +92,7 @@ class Main extends React.Component {
         <div id="kontakt"></div>
           <h2 className="major">Váldde oktavuođa<br/>Kontakt meg<br/>Contact me</h2>
           <span className="image main">
-            <img src={pic03} alt="QR business card" style={{ width: '50%' }} />
+            <img src={pic03} alt="QR business card" style={{ width: '60%' }} />
           </span>
           <script type="text/babel">
               ReactDOM.render(
