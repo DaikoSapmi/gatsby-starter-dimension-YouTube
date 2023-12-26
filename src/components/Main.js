@@ -3,7 +3,8 @@ import React from 'react'
 // import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/banner.jpg'
 import pic03 from '../images/RuneFjellheimVcard.png'
-
+//  <img src={pic03} alt="QR business card" style={{ width: '60%' }} />
+ 
 class Main extends React.Component {
   render() {
     let close = (
@@ -92,7 +93,7 @@ class Main extends React.Component {
         <div id="kontakt"></div>
           <h2 className="major">Váldde oktavuođa<br/>Kontakt meg<br/>Contact me</h2>
           <span className="image main">
-            <img src={pic03} alt="QR business card" style={{ width: '60%' }} />
+          <a href="/RuneFjellheim.vcf" download><img src={pic03} alt="QR business card" /></a>
           </span>
           <script type="text/babel">
               ReactDOM.render(
