@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
+import pic01 from '../images/pic01logo.png'
+
 
 // Assuming the name of your JSON file is posts.json
 import postsData from '../images/posts.json';
@@ -29,15 +31,22 @@ const Blog = () => {
 
   return (
     <Layout>
+    <div className="logo">
+    <span className="image main">
+            <img src={pic01} alt="Logo Rune Fjellheim AS" style={{ width: '60%' }}/>
+          </span>
+    </div>
+      <Link to="/">Go back to the homepage</Link>
       <h1>{currentPost.title}</h1>
       <div dangerouslySetInnerHTML={{ __html: currentPost.content }} />
-      {currentPost.previousId && (
-        <Link to="#" onClick={() => goToPost(currentPost.previousId)}>Previous Post</Link>
-      )}
-      {currentPost.nextId && (
-        <Link to="#" onClick={() => goToPost(currentPost.nextId)}>Next Post</Link>
-      )}
-      <Link to="/">Go back to the homepage</Link>
+      <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '20px' }}>
+        {currentPost.previousId && (
+          <Link to="#" onClick={() => goToPost(currentPost.previousId)} style={{ float: 'left' }}>Previous Post</Link>
+        )}
+        {currentPost.nextId && (
+          <Link to="#" onClick={() => goToPost(currentPost.nextId)} style={{ float: 'right' }}>Next Post</Link>
+        )}
+      </div>
     </Layout>
   )
 }
