@@ -33,14 +33,13 @@ const Blog = () => {
     <Layout>
       <div className="logo">
         <span className="image main">
-          <img src={pic01} alt="Logo Rune Fjellheim AS" style={{ width: '60%' }}/>
+            <Link to="/"><img src={pic01} alt="Logo Rune Fjellheim AS" style={{ width: '30%' }}/></Link>
         </span>
       </div>
-      <Link to="/">Go back to the homepage</Link>
       <h1>{currentPost.title}</h1>
       <div dangerouslySetInnerHTML={{ __html: currentPost.content }} />
 
-      <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '20px', marginRight:'50px' }}>
+      <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '20px', marginRight:'70px' }}>
         {currentPost.previousId && (
           <Link to="#" onClick={() => goToPost(currentPost.previousId)} style={{ float: 'left' }}>
             {findPostTitleById(currentPost.previousId)}
