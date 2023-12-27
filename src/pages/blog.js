@@ -29,6 +29,15 @@ const Blog = () => {
     return post ? post.title : '';
   }
 
+  const script1 = document.createElement('script');
+  script1.src = "https://cdn.botpress.cloud/webchat/v1/inject.js";
+  document.body.appendChild(script1);
+
+  const script2 = document.createElement('script');
+  script2.src = "https://mediafiles.botpress.cloud/f8f2e85a-f875-47c1-bc29-905772e262c7/webchat/config.js";
+  script2.defer = true;
+  document.body.appendChild(script2);
+
   return (
     <Layout>
       <div className="logo">
@@ -48,10 +57,10 @@ const Blog = () => {
             {findPostTitleById(currentPost.nextId)}
           </Link>
         )}
-      <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
-                  <script src="https://mediafiles.botpress.cloud/f8f2e85a-f875-47c1-bc29-905772e262c7/webchat/config.js" defer></script>
       </div>
     </Layout>
+    document.body.removeChild(script1);
+    document.body.removeChild(script2);
   )
 }
 
