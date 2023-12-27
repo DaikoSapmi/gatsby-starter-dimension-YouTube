@@ -32,7 +32,7 @@ const Blog = () => {
   return (
     <Layout>
       <div className="logo">
-            <Link to="/"><img src={pic01} alt="Logo Rune Fjellheim AS" style={{ width: '10%' }}/></Link>
+            <Link to="/"><img src={pic01} alt="Logo Rune Fjellheim AS" style={{ width: '25%' }}/></Link>
       </div>
       <h1>{currentPost.title}</h1>
       <div dangerouslySetInnerHTML={{ __html: currentPost.content }} />
