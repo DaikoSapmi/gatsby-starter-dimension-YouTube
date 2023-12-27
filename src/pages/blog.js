@@ -49,6 +49,8 @@ const Blog = () => {
           </Link>
         )}
       </div>
+      <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+                  <script src="https://mediafiles.botpress.cloud/f8f2e85a-f875-47c1-bc29-905772e262c7/webchat/config.js" defer></script>
     </Layout>
   )
 }
