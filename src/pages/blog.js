@@ -32,31 +32,27 @@ const Blog = () => {
 
   return (
     <Layout>
-        <div className={`body ${this.state.loading} ${this.state.isArticleVisible ? 'is-article-visible' : ''}`}>
-          <div id="wrapper">
-            <div className="logo">
-              <span className="image main">
-                  <Link to="/"><img src={pic01} alt="Logo Rune Fjellheim AS" style={{ width: '10%' }}/></Link>
-              </span>
-            </div>
-            <h1>{currentPost.title}</h1>
-            <div dangerouslySetInnerHTML={{ __html: currentPost.content }} />
-
-            <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '20px', marginRight:'70px' }}>
-              {currentPost.previousId && (
-                <Link to="#" onClick={() => goToPost(currentPost.previousId)} style={{ float: 'left' }}>
-                  {findPostTitleById(currentPost.previousId)}
-                </Link>
-              )}
-              {currentPost.nextId && (
-                <Link to="#" onClick={() => goToPost(currentPost.nextId)} style={{ float: 'right' }}>
-                  {findPostTitleById(currentPost.nextId)}
-                </Link>
-              )}
-            </div>
-          <Footer timeout={this.state.timeout} />
+        <div className="logo">
+          <span className="image main">
+              <Link to="/"><img src={pic01} alt="Logo Rune Fjellheim AS" style={{ width: '10%' }}/></Link>
+          </span>
         </div>
-      </div>
+        <h1>{currentPost.title}</h1>
+        <div dangerouslySetInnerHTML={{ __html: currentPost.content }} />
+
+        <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '20px', marginRight:'70px' }}>
+          {currentPost.previousId && (
+            <Link to="#" onClick={() => goToPost(currentPost.previousId)} style={{ float: 'left' }}>
+              {findPostTitleById(currentPost.previousId)}
+            </Link>
+          )}
+          {currentPost.nextId && (
+            <Link to="#" onClick={() => goToPost(currentPost.nextId)} style={{ float: 'right' }}>
+              {findPostTitleById(currentPost.nextId)}
+            </Link>
+          )}
+        </div>
+      <Footer timeout={this.state.timeout} />
     </Layout>
   )
 }
