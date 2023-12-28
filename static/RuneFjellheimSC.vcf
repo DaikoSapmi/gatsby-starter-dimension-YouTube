@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Fjellheim;Rune;;;
+FN:Rune Fjellheim
+ORG:Sámiráđđi - Saami Council
+TITLE:Senior Adviser
+TEL;type=CELL:+4791009320
+EMAIL:rune.fjellheim@saamicouncil.net
+URL:https://saamicouncil.net
+PHOTO;MEDIATYPE=image/jpeg:http://fjellheim.netlify.app/RuneVcardBilde.jpg
+END:VCARD
