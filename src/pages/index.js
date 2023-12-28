@@ -1,38 +1,47 @@
-import React from 'react'
-import Layout from '../components/layout'
-import YouTube from 'react-youtube'
-
-import '../assets/scss/main.scss'
-import Header from '../components/Header'
-import Main from '../components/Main'
-import Footer from '../components/Footer'
+import React from 'react';
+import Layout from '../components/layout';
+import YouTube from 'react-youtube';
+import '../assets/scss/main.scss';
+import Header from '../components/Header';
+import Main from '../components/Main';
+import Footer from '../components/Footer';
 
 class IndexPage extends React.Component {
   constructor(props) {
-    super(props)
+    super(props);
     this.state = {
       isArticleVisible: false,
       timeout: false,
       articleTimeout: false,
       article: '',
-      loading: 'is-loading'
-    }
-    this.handleOpenArticle = this.handleOpenArticle.bind(this)
-    this.handleCloseArticle = this.handleCloseArticle.bind(this)
+      loading: 'is-loading',
+    };
+    this.handleOpenArticle = this.handleOpenArticle.bind(this);
+    this.handleCloseArticle = this.handleCloseArticle.bind(this);
     this.setWrapperRef = this.setWrapperRef.bind(this);
     this.handleClickOutside = this.handleClickOutside.bind(this);
   }
 
-  componentDidMount () {
+  componentDidMount() {
     this.timeoutId = setTimeout(() => {
-        this.setState({loading: ''});
+      this.setState({ loading: '' });
     }, 100);
     document.addEventListener('mousedown', this.handleClickOutside);
+
+    // Load Botpress webchat scripts
+    const script1 = document.createElement('script');
+    script1.src = "https://cdn.botpress.cloud/webchat/v1/inject.js";
+    document.body.appendChild(script1);
+
+    const script2 = document.createElement('script');
+    script2.src = "https://mediafiles.botpress.cloud/f8f2e85a-f875-47c1-bc29-905772e262c7/webchat/config.js";
+    script2.defer = true;
+    document.body.appendChild(script2);
   }
 
-  componentWillUnmount () {
+  componentWillUnmount() {
     if (this.timeoutId) {
-        clearTimeout(this.timeoutId);
+      clearTimeout(this.timeoutId);
     }
     document.removeEventListener('mousedown', this.handleClickOutside);
   }
@@ -42,45 +51,41 @@ class IndexPage extends React.Component {
   }
 
   handleOpenArticle(article) {
-
     this.setState({
       isArticleVisible: !this.state.isArticleVisible,
-      article
-    })
+      article,
+    });
 
     setTimeout(() => {
       this.setState({
-        timeout: !this.state.timeout
-      })
-    }, 325)
+        timeout: !this.state.timeout,
+      });
+    }, 325);
 
     setTimeout(() => {
       this.setState({
-        articleTimeout: !this.state.articleTimeout
-      })
-    }, 350)
-
+        articleTimeout: !this.state.articleTimeout,
+      });
+    }, 350);
   }
 
   handleCloseArticle() {
-
     this.setState({
-      articleTimeout: !this.state.articleTimeout
-    })
+      articleTimeout: !this.state.articleTimeout,
+    });
 
     setTimeout(() => {
       this.setState({
-        timeout: !this.state.timeout
-      })
-    }, 325)
+        timeout: !this.state.timeout,
+      });
+    }, 325);
 
     setTimeout(() => {
       this.setState({
         isArticleVisible: !this.state.isArticleVisible,
-        article: ''
-      })
-    }, 350)
-
+        article: '',
+      });
+    }, 350);
   }
 
   handleClickOutside(event) {
@@ -90,33 +95,32 @@ class IndexPage extends React.Component {
       }
     }
   }
+
   _onReady(event) {
-    // access to player in all event handlers via event.target
     event.target.playVideo();
     event.target.mute();
     event.target.setVolume(0);
   }
-  
+
   _onEnd(event) {
     event.target.playVideo();
     event.target.mute();
     event.target.setVolume(0);
   }
-  
+
   render() {
     const videoOptions = {
       height: '390',
       width: '640',
       playerVars: {
-        // https://developers.google.com/youtube/player_parameters
         autoplay: 1,
         disablekb: 1,
         enablejsapi: 0,
         controls: 0,
-        rel:0,
-        showinfo:0,
+        rel: 0,
+        showinfo: 0,
         mute: 1,
-        playsinline: 1
+        playsinline: 1,
       },
     };
 
@@ -135,7 +139,6 @@ class IndexPage extends React.Component {
             />
             <Footer timeout={this.state.timeout} />
           </div>
-          {/*<div id="bg"></div>*/}
           <div className="video-background">
             <div className="video-foreground">
               <YouTube
@@ -149,8 +152,8 @@ class IndexPage extends React.Component {
           </div>
         </div>
       </Layout>
-    )
+    );
   }
 }
 
-export default IndexPage
+export default IndexPage;
