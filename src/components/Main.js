@@ -46,14 +46,15 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Om meg</h2>
+          <h2 className="major">En ledende ekspert på samiske og arktiske spørsmål</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
-          <p>Jeg er en stolt same som har vokst opp i et samisk miljø og ønsker å bidra til at vårt folks historie og tilstedeværelse får sin rettmessige plass i den offentlige samtalen.</p>
-          <p>Kunnskap og gjensidig respekt og forståelse er grunnlaget for meningsfulle relasjoner mellom folk med ulik kulturell bakgrunn. Jeg har benyttet det meste av min profesjonelle karriere på politikkutvikling som del av Sametinget i Norge sin administrative stab, uavhengig konsulent i Jaruma AS, leder av Samerådets Arktis og miljøavdeling, leder av Arktisk Råds urfolkssekretariat og i 12 år som direktør for Sametinget i Norges administrasjon. Nå driver jeg mitt eget konsulentfirma, Rune Fjellheim AS. Alle disse stillingene har gitt meg en grunnleggende forståelse og kompetanse i forhold til de utfordringer vi står ovenfor i samiske områder spesielt og den Arktiske region og globale urfolksspørsmål mer generelt.</p>
-          <p>Er opptatt av ny teknologi og er en ivrig skapprogrammerer, selv om det ikke er et primærprodukt som konsulent. Jeg kan imidlertid tilby digitale møteløsninger og streaming ved behov, inkludert teknisk opplegg for tolkning (via Zoom).</p>
-          <p>Spesialitet er prosessledelse, utredninger innenfor feltet samiske rettigheter, Arktis og urfolksspørsmål. I tillegg tilbys foredrag om samme temaer både digitalt og i egen person. <a href="/RuneFjellheim.vcf" download>Visittkort</a></p>
+          <p>Med dype røtter i samisk kultur og en solid karrierebakgrunn har jeg utviklet en solid kunnskap om samiske og arktiske spørsmål. Oppvokst i et samisk miljø, har jeg viet mitt liv til å fremme og beskytte vårt folks interesser og rettigheter. Min profesjonelle reise spenner over flere tiår og inkluderer ledende roller som direktør for Sametinget i Norge, samt viktige posisjoner i Samerådet og Arktisk Råds Urfolkssekretariat.</p>
+          <p>Min karriere har vært preget av en dyp forpliktelse til politikkutvikling og tverrkulturell forståelse. Gjennom mine ulike roller har jeg opparbeidet en sjelden dybde av kunnskap og forståelse rundt de komplekse utfordringene som samfunn i Arktis og urfolk verden over står overfor.</p>
+          <p>I dag driver jeg mitt eget konsulentfirma, Rune Fjellheim AS, hvor jeg tilbyr ekspertise innen prosessledelse, rettighetsutredninger og rådgivning på samiske, arktiske og urfolksspørsmål. Min tilnærming kombinerer tradisjonell kunnskap med moderne innsikt, og jeg er dedikert til å skape bærekraftige og rettferdige løsninger for fremtidige generasjoner.</p>
+          <p>Teknologi og innovasjon er også sentrale interesseområder for meg. Som en entusiastisk hobbyprogrammerer har jeg utviklet betydelige ferdigheter innen digitale løsninger og streamingtjenester. Min nylige inntreden i kunstig intelligensfeltet som en superbruker, særlig med fokus på samiske anvendelser, understreker min evne til å integrere tradisjonell kunnskap med cutting-edge teknologi. Jeg kan for eksempel tilby digitale møteløsninger og streaming ved behov, inkludert teknisk opplegg for tolkning (via Zoom).</p>
+          <p>Spesialitet er prosessledelse, utredninger innenfor feltet samiske rettigheter, Arktis og urfolksspørsmål. Jeg tilbyr foredrag og konsultasjoner, både digitalt og personlig, hvor jeg deler min unike blanding av innsikt og erfaring for å belyse og adressere de presserende utfordringene våre samfunn står overfor. <a href="/RuneFjellheim.vcf" download>Visittkort</a></p>
           {close}
         </article>
 
@@ -64,13 +65,15 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">About me</h2>
+          <h2 className="major">A Pioneering Expert in Arctic and Indigenous Peoples' Issues</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
-          <p>As a Sámi grown up in a Sámi community, I engaged in Arctic and indigenous peoples' issues already as a student. In most of my professional carrier I have been involved in policy planning and development as part of the Sámi Parliament of Norway staff, an independent consultant in Jaruma AS, Head of the Arctic & Environmental Unit in the Saami Council, Executive Secretary of the Arctic Council Indigenous Peoples’ Secretariat, and for 12 years at the Sámi Parliament of Norway as Director General. Now I operate my own consultancy company, Rune Fjellheim AS. All of these positions have given me a thorough understanding of Arctic issues from different perspectives.</p>
-
-          <p>Specialties: Arctic Policy Issues, Indigenous Peoples' Policy Development, Multilateral negotiations, Climate Change Issues and Sámi Issues. Lectures and presentations can be held both digitally and in person. <a href="/RuneFjellheim.vcf" download>Business Card</a></p>
+          <p>With deep roots in the Sámi community and a career spanning over three decades, I, Rune Fjellheim, offer unparalleled expertise in Arctic policy, indigenous peoples' rights, and environmental stewardship. As a native Sámi, my journey began in our community, where I developed a keen interest in Arctic and indigenous issues. This early passion translated into a distinguished career that includes significant roles such as Director General at the Sámi Parliament of Norway, Executive Secretary of the Arctic Council Indigenous Peoples’ Secretariat, and a leader in the Sámi Council.</p>
+          <p>My extensive experience in policy planning and development, particularly within the Sámi Parliament, has equipped me with a multi-dimensional understanding of Arctic issues. I’ve been at the forefront of pivotal policy developments, including landmark agreements and initiatives that have shaped indigenous rights and environmental policies at an international level.</p>
+          <p>As the head of Rune Fjellheim AS, my consultancy firm, I specialize in guiding complex processes to produce comprehensive reports, analyses, and advice on human rights, Sámi issues, and leadership in Arctic indigenous peoples' matters, including tackling climate change challenges. My specialties encompass Arctic policy issues, indigenous peoples' policy development, multilateral negotiations, and climate change solutions.</p>
+          <p>A unique aspect of my profile is my technological adeptness. As a hobby programmer, I have honed skills in streaming services, particularly during the pandemic, and have recently emerged as a super user in the AI domain, focusing on Sámi area applications. This technological fluency allows me to offer contemporary solutions and lectures in these evolving fields.</p>
+          <p>I am available for consultations, lectures, and presentations, both digitally and in person, bringing a blend of traditional knowledge and modern technological insight to address today's pressing Arctic and indigenous issues. <a href="/RuneFjellheim.vcf" download>Business Card</a></p>
           {close}
         </article>
 
