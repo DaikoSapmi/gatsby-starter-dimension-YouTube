@@ -46,8 +46,8 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">En ledende ekspert på</h2>
-          <h2 className="major">samiske og arktiske spørsmål</h2>
+          <h2 className="major">Ekspert på samiske</h2>
+          <h2 className="major">og arktiske spørsmål</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
@@ -66,8 +66,8 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Expert on Arctic and</h2>
-          <h2 className="major">Indigenous Peoples' Issues</h2>
+          <h2 className="major">Expert on Sámi</h2>
+          <h2 className="major">and Arctic Issues</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
