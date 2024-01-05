@@ -162,7 +162,7 @@ class Main extends React.Component {
             </div>
             <ul className="actions">
               <li><input type="submit" value="Send" className="special" /></li>
-              <li><input type="reset" value="Reset" /></li>
+              <li><input type="reset" value="Reset" onClick={this.props.handleFormReset} /></li>
             </ul>
           </form>
           {close}

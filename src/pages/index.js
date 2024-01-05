@@ -27,6 +27,7 @@ class IndexPage extends React.Component {
     this.handleClickOutside = this.handleClickOutside.bind(this);
     this.handleInputChange = this.handleInputChange.bind(this);
     this.handleFormSubmit = this.handleFormSubmit.bind(this);
+    this.handleFormReset = this.handleFormReset.bind(this);
   }
 
   componentDidMount() {
@@ -94,6 +95,16 @@ class IndexPage extends React.Component {
       });
     }, 350);
   }
+  
+  handleFormReset = () => {
+    this.setState({
+      form: {
+        name: '',
+        email: '',
+        message: '',
+      },
+    });
+  };
 
   handleClickOutside(event) {
     if (this.wrapperRef && !this.wrapperRef.contains(event.target)) {
@@ -161,6 +172,7 @@ class IndexPage extends React.Component {
               form={this.state.form}
               handleInputChange={this.handleInputChange}
               handleFormSubmit={this.handleFormSubmit}
+              handleFormReset={this.handleFormReset}
             />
            <Footer timeout={this.state.timeout} />
           </div>
