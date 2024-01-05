@@ -86,7 +86,44 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-        <form
+        <div id="kontakt"></div>
+          <h2 className="major">Váldde oktavuođa<br/>Kontakt meg<br/>Contact me</h2>
+          <span className="image main">
+          <a href="/RuneFjellheim.vcf" download><img src={pic03} alt="QR business card"  style={{ width: '60%' }} /></a>
+          </span>
+
+          <ul className="icons">
+            <li>
+              <a
+                href="https://x.com/RuneFjellheim"
+                className="icon fa-twitter"
+              >
+                <span className="label">Twitter</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/rune.fjellheim" className="icon fa-facebook">
+                <span className="label">Facebook</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/runefjellheim/" className="icon fa-instagram">
+                <span className="label">Instagram</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/channel/UChGEObcSuD1oJtolxxifrCQ" className="icon fa-youtube">
+                <span className="label">YouTube</span>
+              </a>
+            </li>
+            <li>
+              <a href="mailto:rune@fjellheim.tv" className="icon fa-at">
+                <span className="label">E-mail</span>
+              </a>
+            </li>
+
+          </ul>
+          <form
             name="contact"
             method="POST"
             data-netlify="true"
@@ -128,70 +165,6 @@ class Main extends React.Component {
               <li><input type="reset" value="Reset" /></li>
             </ul>
           </form>
-        <div id="kontakt"></div>
-          <h2 className="major">Váldde oktavuođa<br/>Kontakt meg<br/>Contact me</h2>
-          <span className="image main">
-          <a href="/RuneFjellheim.vcf" download><img src={pic03} alt="QR business card"  style={{ width: '60%' }} /></a>
-          </span>
-          <script type="text/babel">
-              ReactDOM.render(
-                  <form method="POST">
-                    <input type="hidden" name="form-name" value="nettskjema" />
-                    <div className="field half first">
-                      <label>Namma-Navn-Name
-                      <input type="text" name="navn" /></label>
-                    </div>
-                    <div className="field half">
-                      <label>Eboasta-Epost-Email
-                      <input type="text" name="epost" /></label>
-                    </div>
-                    <div className="field">
-                      <label>Diehtu-Beskjed-Message
-                      <textarea name="melding" rows="4"></textarea></label>
-                    </div>
-                    <ul className="actions">
-                      <li>
-                        <button type="submit" className="special">Sáddes - Send</button>
-                      </li>
-                      <li>
-                        <input name="reset" type="reset" value="Ođasmahtte-Reset" />
-                      </li>
-                    </ul>
-                  </form>,
-            document.getElementById("kontakt")
-          );
-          </script>
-          <ul className="icons">
-            <li>
-              <a
-                href="https://x.com/RuneFjellheim"
-                className="icon fa-twitter"
-              >
-                <span className="label">Twitter</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.facebook.com/rune.fjellheim" className="icon fa-facebook">
-                <span className="label">Facebook</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/runefjellheim/" className="icon fa-instagram">
-                <span className="label">Instagram</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.youtube.com/channel/UChGEObcSuD1oJtolxxifrCQ" className="icon fa-youtube">
-                <span className="label">YouTube</span>
-              </a>
-            </li>
-            <li>
-              <a href="mailto:rune@fjellheim.tv" className="icon fa-at">
-                <span className="label">E-mail</span>
-              </a>
-            </li>
-
-          </ul>
           {close}
         </article>
       </div>
