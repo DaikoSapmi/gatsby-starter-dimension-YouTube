@@ -165,8 +165,8 @@ class Main extends React.Component {
               <li><input type="reset" value="Reset" onClick={this.props.handleFormReset} /></li>
             </ul>
           </form>
-          {this.props.submissionStatus === 'success' && (<p>Thank you for your submission!</p>)}
-          {this.props.submissionStatus === 'error' && (<p>Sorry, there was an error submitting your form.</p>)}
+          {this.props.submissionStatus === 'success' && (<h2>Thank you for your submission!</h2>)}
+          {this.props.submissionStatus === 'error' && (<h2>Sorry, there was an error submitting your form.</h2>)}
           {close}
         </article>
       </div>

@@ -104,9 +104,10 @@ class IndexPage extends React.Component {
         email: '',
         message: '',
       },
+      submissionStatus: '', 
     });
   };
-
+  
   handleClickOutside(event) {
     if (this.wrapperRef && !this.wrapperRef.contains(event.target)) {
       if (this.state.isArticleVisible) {
@@ -136,14 +137,21 @@ class IndexPage extends React.Component {
     })
     .then(() => {
       console.log("Form successfully submitted");
-      this.setState({ submissionStatus: 'success' });
+      this.setState({ 
+        submissionStatus: 'success',
+        form: {
+          name: '',
+          email: '',
+          message: '',
+        },
+      });
     })
     .catch((error) => {
       console.error(error);
       this.setState({ submissionStatus: 'error' });
     });
   }
-    
+      
   _onReady(event) {
     event.target.playVideo();
     event.target.mute();
