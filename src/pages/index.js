@@ -126,9 +126,17 @@ class IndexPage extends React.Component {
 
   handleFormSubmit(event) {
     event.preventDefault();
-    // Add logic for form submission if needed
+  
+    const formData = new FormData(event.target);
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams(formData).toString(),
+    })
+    .then(() => console.log("Form successfully submitted"))
+    .catch((error) => alert(error));
   }
-
+  
   _onReady(event) {
     event.target.playVideo();
     event.target.mute();
