@@ -15,11 +15,18 @@ class IndexPage extends React.Component {
       articleTimeout: false,
       article: '',
       loading: 'is-loading',
+      form: {
+        name: '',
+        email: '',
+        message: '',
+      },
     };
     this.handleOpenArticle = this.handleOpenArticle.bind(this);
     this.handleCloseArticle = this.handleCloseArticle.bind(this);
     this.setWrapperRef = this.setWrapperRef.bind(this);
     this.handleClickOutside = this.handleClickOutside.bind(this);
+    this.handleInputChange = this.handleInputChange.bind(this);
+    this.handleFormSubmit = this.handleFormSubmit.bind(this);
   }
 
   componentDidMount() {
@@ -96,6 +103,21 @@ class IndexPage extends React.Component {
     }
   }
 
+  handleInputChange(event) {
+    const { name, value } = event.target;
+    this.setState(prevState => ({
+      form: {
+        ...prevState.form,
+        [name]: value,
+      },
+    }));
+  }
+
+  handleFormSubmit(event) {
+    event.preventDefault();
+    // Add logic for form submission if needed
+  }
+
   _onReady(event) {
     event.target.playVideo();
     event.target.mute();
@@ -136,8 +158,11 @@ class IndexPage extends React.Component {
               article={this.state.article}
               onCloseArticle={this.handleCloseArticle}
               setWrapperRef={this.setWrapperRef}
+              form={this.state.form}
+              handleInputChange={this.handleInputChange}
+              handleFormSubmit={this.handleFormSubmit}
             />
-            <Footer timeout={this.state.timeout} />
+           <Footer timeout={this.state.timeout} />
           </div>
           <div className="video-background">
             <div className="video-foreground">

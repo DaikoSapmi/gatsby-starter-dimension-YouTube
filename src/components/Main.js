@@ -86,15 +86,48 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-        <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
-        <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
-        <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
-
-        <form name="nettskjema" netlify netlify-honeypot="bot-field" hidden>
-          <input type="text" name="navn" />
-          <input type="email" name="epost" />
-          <textarea name="melding"></textarea>
-        </form>
+        <form
+            name="contact"
+            method="POST"
+            data-netlify="true"
+            onSubmit={this.props.handleFormSubmit}
+          >
+            <input type="hidden" name="form-name" value="contact" />
+            <div className="field half first">
+              <label htmlFor="name">Name</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                value={this.props.form.name}
+                onChange={this.props.handleInputChange}
+              />
+            </div>
+            <div className="field half">
+              <label htmlFor="email">Email</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                value={this.props.form.email}
+                onChange={this.props.handleInputChange}
+              />
+            </div>
+            <div className="field">
+              <label htmlFor="message">Message</label>
+              <textarea
+                name="message"
+                id="message"
+                rows="4"
+                value={this.props.form.message}
+                onChange={this.props.handleInputChange}
+              ></textarea>
+            </div>
+            <ul className="actions">
+              <li><input type="submit" value="Send" className="special" /></li>
+              <li><input type="reset" value="Reset" /></li>
+            </ul>
+          </form>
         <div id="kontakt"></div>
           <h2 className="major">Váldde oktavuođa<br/>Kontakt meg<br/>Contact me</h2>
           <span className="image main">
