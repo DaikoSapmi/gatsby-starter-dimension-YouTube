@@ -131,7 +131,7 @@ class Main extends React.Component {
           >
             <input type="hidden" name="form-name" value="contact" />
             <div className="field half first">
-              <label htmlFor="name">Name</label>
+              <label htmlFor="name">Namma - Navn - Name</label>
               <input
                 type="text"
                 name="name"
@@ -141,7 +141,7 @@ class Main extends React.Component {
               />
             </div>
             <div className="field half">
-              <label htmlFor="email">Email</label>
+              <label htmlFor="email">Eboastta - Epost - Email</label>
               <input
                 type="email"
                 name="email"
@@ -151,7 +151,7 @@ class Main extends React.Component {
               />
             </div>
             <div className="field">
-              <label htmlFor="message">Message</label>
+              <label htmlFor="message">Diehtu - Melding - Message</label>
               <textarea
                 name="message"
                 id="message"
@@ -165,8 +165,8 @@ class Main extends React.Component {
               <li><input type="reset" value="Reset" onClick={this.props.handleFormReset} /></li>
             </ul>
           </form>
-          {this.props.submissionStatus === 'success' && (<h2>Thank you for your submission!</h2>)}
-          {this.props.submissionStatus === 'error' && (<h2>Sorry, there was an error submitting your form.</h2>)}
+          {this.props.submissionStatus === 'success' && (<h3>Giitu dieđuid ovddas! - Takk for din melding! - Thank you for your submission!</h3>)}
+          {this.props.submissionStatus === 'error' && (<h3>Dat lei juoga boasttut dien skovis - Beklager noe gikk galt - Sorry, there was an error in the form.</h3>)}
           {close}
         </article>
       </div>
