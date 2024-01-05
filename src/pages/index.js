@@ -20,6 +20,7 @@ class IndexPage extends React.Component {
         email: '',
         message: '',
       },
+      submissionStatus: '', // 'success', 'error', or ''
     };
     this.handleOpenArticle = this.handleOpenArticle.bind(this);
     this.handleCloseArticle = this.handleCloseArticle.bind(this);
@@ -126,17 +127,23 @@ class IndexPage extends React.Component {
 
   handleFormSubmit(event) {
     event.preventDefault();
-  
     const formData = new FormData(event.target);
+  
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: new URLSearchParams(formData).toString(),
     })
-    .then(() => console.log("Form successfully submitted"))
-    .catch((error) => alert(error));
+    .then(() => {
+      console.log("Form successfully submitted");
+      this.setState({ submissionStatus: 'success' });
+    })
+    .catch((error) => {
+      console.error(error);
+      this.setState({ submissionStatus: 'error' });
+    });
   }
-  
+    
   _onReady(event) {
     event.target.playVideo();
     event.target.mute();
@@ -181,6 +188,7 @@ class IndexPage extends React.Component {
               handleInputChange={this.handleInputChange}
               handleFormSubmit={this.handleFormSubmit}
               handleFormReset={this.handleFormReset}
+              submissionStatus={this.state.submissionStatus}
             />
            <Footer timeout={this.state.timeout} />
           </div>
