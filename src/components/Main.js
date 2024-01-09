@@ -31,7 +31,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Mu birra</h2>
           <span className="image main">
-            <img src={pic02} alt="" />
+            <img src={pic02} alt="Rune Fjellheim, Beaivválaš jođiheadji, Daglig leder, CEO" style={{ width: '60%' }} />
           </span>
           <p>Sápmelažžan bajásšadden Sámi servodagas, lean beroštuvvan Sámi-, Árktalaš- ja álgoálbmotáššiid juo studeantan. Bargoeallimis lean eanaš bargan politihka hábmemiin ja ovddideamiin oassin Norggabeal Sámedikki hálddáhusa, sorjjasmeahttun konsuleantan Jarumas AS:s, Sámeráđi árktalaš ja birasossodaga jođiheaddjin, Árktalaš ráđi álgoálbmogiid čállingotti jođiheaddjin ja 12 jagi Norggabeal Sámedikki direktevrran.</p>
           <p>Dál mun doaimmahan iežan konsuleantafitnodaga, Rune Fjellheim AS. Buot dát posišuvnnat leat addán munnje vuđolaš ipmárdusa Sámi ja Árktisa gažaldagain iešguđet geahččanguovllus.</p>
@@ -49,7 +49,7 @@ class Main extends React.Component {
           <h2 className="major">Ekspert på samiske</h2>
           <h2 className="major">og arktiske spørsmål</h2>
           <span className="image main">
-            <img src={pic02} alt="" />
+            <img src={pic02} alt="Rune Fjellheim, Beaivválaš jođiheadji, Daglig leder, CEO" style={{ width: '60%' }} />
           </span>
           <p>Med dype røtter i samisk kultur og en solid karrierebakgrunn har jeg utviklet en solid kunnskap om samiske og arktiske spørsmål. Oppvokst i et samisk miljø, har jeg viet mitt liv til å fremme og beskytte vårt folks interesser og rettigheter. Min profesjonelle reise spenner over flere tiår og inkluderer ledende roller som direktør for Sametinget i Norge, samt viktige posisjoner i Samerådet og Arktisk Råds Urfolkssekretariat.</p>
           <p>Min karriere har vært preget av en dyp forpliktelse til politikkutvikling og tverrkulturell forståelse. Gjennom mine ulike roller har jeg opparbeidet en sjelden dybde av kunnskap og forståelse rundt de komplekse utfordringene som samfunn i Arktis og urfolk verden over står overfor.</p>
@@ -69,7 +69,7 @@ class Main extends React.Component {
           <h2 className="major">Expert on Sámi</h2>
           <h2 className="major">and Arctic Issues</h2>
           <span className="image main">
-            <img src={pic02} alt="" />
+            <img src={pic02} alt="Rune Fjellheim, Beaivválaš jođiheadji, Daglig leder, CEO" style={{ width: '60%' }} />
           </span>
           <p>With deep roots in the Sámi community and a career spanning over three decades, I, Rune Fjellheim, offer unparalleled expertise in Arctic policy, indigenous peoples' rights, and environmental stewardship. As a native Sámi, my journey began in our community, where I developed a keen interest in Arctic and indigenous issues. This early passion translated into a distinguished career that includes significant roles such as Director General at the Sámi Parliament of Norway, Executive Secretary of the Arctic Council Indigenous Peoples’ Secretariat, and a leader in the Sámi Council.</p>
           <p>My extensive experience in policy planning and development, particularly within the Sámi Parliament, has equipped me with a multi-dimensional understanding of Arctic issues. I’ve been at the forefront of pivotal policy developments, including landmark agreements and initiatives that have shaped indigenous rights and environmental policies at an international level.</p>
