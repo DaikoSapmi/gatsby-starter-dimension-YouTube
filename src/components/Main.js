@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 // import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/banner.jpg'
+import pic02 from '../images/banner.png'
 import pic03 from '../images/RuneFjellheimVcard.png'
 //  <img src={pic03} alt="QR business card" style={{ width: '60%' }} />
  
