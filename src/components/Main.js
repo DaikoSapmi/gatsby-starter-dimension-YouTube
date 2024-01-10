@@ -52,7 +52,7 @@ class Main extends React.Component {
           <h2 className="major">Ekspert på samiske</h2>
           <h2 className="major">og arktiske spørsmål</h2>
           <span className="image main">
-            <img src={pic02} alt="Rune Fjellheim, Daglig leder" style={{ width: '70%' }} />
+            <img src={pic02} alt="Rune Fjellheim, Daglig leder" style={{ width: '100%' }} />
           </span>
           <p>Velkommen til meg, og mitt konsulentselskap Rune Fjellheim AS. Jeg er utdannet sosialøkonom, Cand. Oecon, fra Universitetet i Oslo og har tilleggsutdanning i samisk språk, informatikk og nettbaserte media og nettjenester.</p>
           <p>Med dype røtter i samisk kultur og en bred karrierebakgrunn har jeg utviklet solid kunnskap om samiske og arktiske spørsmål. Oppvokst i et samisk miljø, har jeg viet mitt liv til å fremme og beskytte vårt folks interesser og rettigheter. Min profesjonelle reise spenner over flere tiår og inkluderer ledende roller som direktør for Sametinget i Norge, samt viktige posisjoner i Samerådet og Arktisk Råds Urfolkssekretariat.</p>
@@ -72,7 +72,7 @@ class Main extends React.Component {
           <h2 className="major">Expert on Sámi</h2>
           <h2 className="major">and Arctic Issues</h2>
           <span className="image main">
-            <img src={pic02} alt="Rune Fjellheim, CEO" style={{ width: '70%' }} />
+            <img src={pic02} alt="Rune Fjellheim, CEO" style={{ width: '90%' }} />
           </span>
           <p>Welcome to me and my consulting company Rune Fjellheim AS. I have a degree in Economics, Cand. Oecon, from the University of Oslo and have additional education in Sami language, computer science and online media and online services.</p>
           <p>With deep roots in Sámi culture and a broad career background, I have developed solid knowledge of Sámi and Arctic issues. Raised in a Sámi environment, I have dedicated my life to promoting and protecting the interests and rights of our people. My professional journey spans several decades and includes leading roles as director of the Sámi Parliament in Norway, as well as important positions in the Saami Council and the Arctic Council's Indigenous Secretariat.</p>

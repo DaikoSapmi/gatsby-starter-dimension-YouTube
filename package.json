@@ -4,19 +4,23 @@
   "version": "*",
   "author": "Hunter Chang",
   "dependencies": {
-    "gatsby": "*",
+    "ajv": "*",
+    "devcert": "*",
+    "eslint": "*",
+    "gatsby": "^5.13.1",
     "gatsby-plugin-manifest": "*",
     "gatsby-plugin-react-helmet": "*",
     "gatsby-plugin-sass": "*",
+    "gatsby-source-filesystem": "^5.13.0",
+    "gatsby-transformer-remark": "^6.13.0",
     "react": "*",
     "react-dom": "*",
     "react-helmet": "*",
-    "react-youtube": "*",
-    "ajv": "*",
-    "devcert": "*",
-    "eslint": "*"
+    "react-youtube": "*"
   },
-  "keywords": ["gatsby"],
+  "keywords": [
+    "gatsby"
+  ],
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
