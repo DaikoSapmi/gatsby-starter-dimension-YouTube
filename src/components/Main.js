@@ -32,7 +32,7 @@ class Main extends React.Component {
           <h2 className="major">Sámi ja Árktalaš</h2>
           <h2 className="major">áššiid áššedovdi</h2>
           <span className="image main">
-            <img src={pic02} alt="Rune Fjellheim, Beaivválaš jođiheadji" style={{ width: '70%' }} />
+            <img src={pic02} alt="Rune Fjellheim, Beaivválaš jođiheadji" style={{ width: '100%' }} />
           </span>
           <p>Bures boahtin mu konsuleantafitnodahkii Rune Fjellheim AS. Mun lean oahppan sosiálaekonoma, Cand. Oecon, Oslo universitehtas ja mus lea lassioahppu sámegielas, informatihkas ja neahttavuđot mediain ja neahttabálvalusain.</p>
           <p>Čiekŋalis ruohttasat sámi kultuvrras ja viiddis bargovásáhus lea addán munnje nanu máhtu sámi ja árktalaš gažaldagaid birra. Go lean bajásšaddan sámi birrasis, de lean bidjan ealliman min álbmoga beroštumiid ja vuoigatvuođaid ovddideapmái ja suodjaleapmái. Mus lea badjel moaddelogi jagi bargovásáhus, ja dasa gullet njunuš doaimmat Norgga Sámedikki direktevran, ja maiddái dehálaš doaimmat Sámiráđis ja Árktalaš Ráđi Álgoálbmotčállingottis.</p>
@@ -72,7 +72,7 @@ class Main extends React.Component {
           <h2 className="major">Expert on Sámi</h2>
           <h2 className="major">and Arctic Issues</h2>
           <span className="image main">
-            <img src={pic02} alt="Rune Fjellheim, CEO" style={{ width: '90%' }} />
+            <img src={pic02} alt="Rune Fjellheim, CEO" style={{ width: '100%' }} />
           </span>
           <p>Welcome to me and my consulting company Rune Fjellheim AS. I have a degree in Economics, Cand. Oecon, from the University of Oslo and have additional education in Sami language, computer science and online media and online services.</p>
           <p>With deep roots in Sámi culture and a broad career background, I have developed solid knowledge of Sámi and Arctic issues. Raised in a Sámi environment, I have dedicated my life to promoting and protecting the interests and rights of our people. My professional journey spans several decades and includes leading roles as director of the Sámi Parliament in Norway, as well as important positions in the Saami Council and the Arctic Council's Indigenous Secretariat.</p>
