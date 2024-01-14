@@ -5,6 +5,7 @@
   "author": "Hunter Chang",
   "dependencies": {
     "ajv": "*",
+    "cookieconsent": "github:brainsum/cookieconsent",
     "devcert": "*",
     "eslint": "*",
     "gatsby": "^5.13.1",
